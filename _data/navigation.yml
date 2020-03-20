@@ -1,0 +1,109 @@
+header:
+  # - titles: 
+  #     en: 
+  #   url: /
+  # - titles: 
+  #     en: Docs
+  #   url: /docs/en/quick-start
+  # - titles:
+  #     en:       About
+  #     zh:       关于
+  #     zh-Hans:  关于
+  #     zh-Hant:  關於
+  #   url:        /about.html
+
+mgmt-system:
+  - title:      Quản trị hệ thống
+    children:
+      - title: Giới Thiệu
+        url: /quan-tri
+      - title: Quản lý người dùng
+        url: /quan-ly-nguoi-dung
+      - title: Quản lý nhóm người dùng
+        url: /quan-ly-nhom-nguoi-dung
+      - title: Phân quyền người dùng
+        url: /phan-quyen-nguoi-dung
+      - title: Phân quyền công trường
+        url: /phan-quyen-cong-truong
+      - title: Quản lý vai trò
+        url: /quan-ly-vai-tro
+      - title: Định nghĩa tham số hệ thống
+        url: /dinh-nghia-tham-so-he-thong
+      - title: Quản lý báo cáo thống kê
+        url: /quan-ly-bao-cao-thong-ke
+      - title: Quản lý chứng thực
+        url: /quan-ly-chung-thuc
+      - title: Quản lý thiết bị
+        url: /quan-ly-thiet-bi
+      - title: Quản lý biểu mẫu Email
+        url: /quan-ly-bieu-mau-email
+      - title: Quản lý dữ liệu nền
+        url: /quan-ly-du-lieu-nen
+      - title: Quản lý truy vết
+        url: /quan-ly-truy-vet
+      - title: Quản lý truy cập
+        url: /quan-ly-truy-cap
+      - title: Quy định hệ thống
+        url: /quy-dinh-he-thong
+      - title: Quản lý lịch
+        url: /quan-ly-lich
+      - title: Quản lý tài liệu
+        url: /quan-ly-tai-lieu
+      - title: Quản lý cấu hình FTP
+        url: /quan-ly-cau-hinh-ftp
+      - title: Quản lý chức năng
+        url: /quan-ly-chuc-nang
+
+mgmt-worker:
+  - title:      Bắt đầu
+    children:
+      - title:  Giới thiệu tổng quan
+        url:    /
+      - title: Đăng nhập, đăng xuất
+        url: /dang-nhap-dang-xuat
+  - title:      Quản lý công nhân
+    children:
+      - title: Trang quản lý công nhân 
+        url: /quan-ly-cong-nhan
+      - title: Thêm từng công nhân
+        url: /them-tung-cong-nhan
+      - title: Thêm nhiều công nhân
+        url: /them-nhieu-cong-nhan
+      - title: Đăng tải hình thẻ công nhân
+        url: /dang-tai-hinh-the-cong-nhan
+      - title: In thẻ công nhân
+        url: /in-the-cong-nhan
+      - title: Cấp thẻ công nhân
+        url: /cap-the-cong-nhan
+      - title: Mở và khóa thẻ công nhân
+        url: /mo-va-khoa-the-cong-nhan
+      - title: Hợp đồng lao động
+        url: /hop-dong-lao-dong
+      - title: Kiểm tra thông tin công nhân
+        url: /kiem-tra-thong-tin-cong-nhan
+  - title:      Quản lý lực lượng thi công
+    children:
+      - title: Quản lý lực lượng thi công
+        url: /quan-ly-luc-luong-thi-cong
+      - title: Thêm lượng thi công
+        url: /them-luc-luong-thi-cong
+      - title: Sửa lực lượng thi công
+        url: /sua-luc-luong-thi-cong
+      - title: Gộp lực lượng thi công
+        url: /gop-luc-luong-thi-cong
+  - title:      Đánh giá năng lực LLTC
+    children:
+      - title: Quản lý tiêu chí đánh giá LLTC
+        url: /quan-ly-tieu-chi-danh-gia-lltc
+      - title: Thêm tiêu chí đánh giá
+        url: /them-tieu-chi-danh-gia
+      - title: Sửa lý tiêu chí đánh giá
+        url: /sua-tieu-chi-danh-gia
+      - title: Xóa lý tiêu chí đánh giá
+        url: /xoa-tieu-chi-danh-gia
+      - title: Đánh giá LLTC từ tổng công ty
+        url: /danh-gia-lltc-tu-tong-cong-ty
+      - title: Đánh giá LLTC từ từng công trường
+        url: /danh-gia-lltc-tu-tung-cong-truong
+sidebar:
+  nav: mgmt-worker
