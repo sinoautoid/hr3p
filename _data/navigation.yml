@@ -50,7 +50,7 @@ mgmt-system:
   
   - title: Hướng dẫn xem kết quả đánh giá
     children:
-      - title:  Tài liệu hướng dẫn sử dụng
+      - title:  Đăng nhập
         url:    /user-guide
       - title: Xem kết quả đánh giá
         url: /ket-qua-danh-gia
@@ -58,7 +58,7 @@ mgmt-system:
 view-evaluation:
   - title: Hướng dẫn xem kết quả đánh giá
     children:
-      - title:  Tài liệu hướng dẫn sử dụng
+      - title:  Đăng nhập
         url:    /user-guide
       - title: Xem kết quả đánh giá
         url: /ket-qua-danh-gia
