@@ -23,8 +23,6 @@ mgmt-system:
         url: /quan-ly-nhom-nguoi-dung
       - title: Phân quyền người dùng
         url: /phan-quyen-nguoi-dung
-      - title: Phân quyền công trường
-        url: /phan-quyen-cong-truong
       - title: Quản lý vai trò
         url: /quan-ly-vai-tro
       - title: Định nghĩa tham số hệ thống
@@ -33,8 +31,6 @@ mgmt-system:
         url: /quan-ly-bao-cao-thong-ke
       - title: Quản lý chứng thực
         url: /quan-ly-chung-thuc
-      - title: Quản lý thiết bị
-        url: /quan-ly-thiet-bi
       - title: Quản lý biểu mẫu Email
         url: /quan-ly-bieu-mau-email
       - title: Quản lý dữ liệu nền
@@ -47,12 +43,15 @@ mgmt-system:
         url: /quy-dinh-he-thong
       - title: Quản lý lịch
         url: /quan-ly-lich
-      - title: Quản lý tài liệu
-        url: /quan-ly-tai-lieu
-      - title: Quản lý cấu hình FTP
-        url: /quan-ly-cau-hinh-ftp
       - title: Quản lý chức năng
         url: /quan-ly-chuc-nang
 
+view-evaluation:
+  - title: Hướng dẫn xem kết quả đánh giá
+    children:
+      - title:  Giới thiệu
+        url:    /user-guide
+      - title: Xem kết quả đánh giá
+        url: /ket-qua-danh-gia
 sidebar:
-  nav: mgmt-system
+  nav: view-evaluation
