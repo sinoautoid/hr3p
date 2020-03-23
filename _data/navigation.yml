@@ -51,7 +51,7 @@ mgmt-system:
 view-evaluation:
   - title: Hướng dẫn xem kết quả đánh giá
     children:
-      - title:  Giới thiệu
+      - title:  Tài liệu hướng dẫn sử dụng
         url:    /user-guide
       - title: Xem kết quả đánh giá
         url: /ket-qua-danh-gia
