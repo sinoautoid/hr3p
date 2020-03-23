@@ -13,11 +13,11 @@ header:
   #   url:        /about.html
 
 mgmt-system:
-  - title:      Quản trị hệ thống
+  - title: Quản trị hệ thống
     children:
       - title: Giới Thiệu Tổng Quan
         url: /
-      - title: Giới Thiệu
+      - title: Quản trị
         url: /quan-tri
       - title: Quản lý người dùng
         url: /quan-ly-nguoi-dung
@@ -47,13 +47,61 @@ mgmt-system:
         url: /quan-ly-lich
       - title: Quản lý chức năng
         url: /quan-ly-chuc-nang
+  
+  - title: Hướng dẫn xem kết quả đánh giá
+    children:
+      - title:  Đăng nhập
+        url: /user-guide
+      - title: Xem kết quả đánh giá
+        url: /ket-qua-danh-gia
+
+  - title: Hướng dẫn quản lý và đánh giá KPI
+    children:
+      - title:  Đăng nhập
+        url: /hr-guide
+      - title: Quản lý thang điểm
+        url: /quan-ly-thang-diem
+      - title: Quản lý KPI
+        url: /quan-ly-kpi
+      - title: Quản lý tổng điểm đánh giá
+        url: /quan-ly-tong-diem-danh-gia
+      - title: Đánh giá KPI
+        url: /danh-gia-kpi
+      - title: Thư viện KPI
+        url: /thu-vien-kpi
+      - title: Thư viện KPI theo vị trí
+        url: /thu-vien-kpi-theo-vi-tri
+      - title: Biểu Đồ Điểm Đánh Giá
+        url: /bieu-do-diem-danh-gia
 
 view-evaluation:
   - title: Hướng dẫn xem kết quả đánh giá
     children:
-      - title:  Giới thiệu
+      - title:  Đăng nhập
         url:    /user-guide
       - title: Xem kết quả đánh giá
         url: /ket-qua-danh-gia
 sidebar:
   nav: view-evaluation
+
+mgmt-hr:
+  - title: Hướng dẫn quản lý và đánh giá KPI
+    children:
+      - title:  Đăng nhập
+        url: /hr-guide
+      - title: Quản lý thang điểm
+        url: /quan-ly-thang-diem
+      - title: Quản lý KPI
+        url: /quan-ly-kpi
+      - title: Quản lý tổng điểm đánh giá
+        url: /quan-ly-tong-diem-danh-gia
+      - title: Đánh giá KPI
+        url: /danh-gia-kpi
+      - title: Thư viện KPI
+        url: /thu-vien-kpi
+      - title: Thư viện KPI theo vị trí
+        url: /thu-vien-kpi-theo-vi-tri
+      - title: Biểu Đồ Điểm Đánh Giá
+        url: /bieu-do-diem-danh-gia
+sidebar:
+  nav: mgmt-hr
