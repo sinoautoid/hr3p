@@ -13,9 +13,11 @@ header:
   #   url:        /about.html
 
 mgmt-system:
-  - title:      Quản trị hệ thống
+  - title: Quản trị hệ thống
     children:
-      - title: Giới Thiệu
+      - title: Giới Thiệu Tổng Quan
+        url: /
+      - title: Quản trị
         url: /quan-tri
       - title: Quản lý người dùng
         url: /quan-ly-nguoi-dung
@@ -23,8 +25,6 @@ mgmt-system:
         url: /quan-ly-nhom-nguoi-dung
       - title: Phân quyền người dùng
         url: /phan-quyen-nguoi-dung
-      - title: Phân quyền công trường
-        url: /phan-quyen-cong-truong
       - title: Quản lý vai trò
         url: /quan-ly-vai-tro
       - title: Định nghĩa tham số hệ thống
@@ -33,8 +33,6 @@ mgmt-system:
         url: /quan-ly-bao-cao-thong-ke
       - title: Quản lý chứng thực
         url: /quan-ly-chung-thuc
-      - title: Quản lý thiết bị
-        url: /quan-ly-thiet-bi
       - title: Quản lý biểu mẫu Email
         url: /quan-ly-bieu-mau-email
       - title: Quản lý dữ liệu nền
@@ -47,63 +45,63 @@ mgmt-system:
         url: /quy-dinh-he-thong
       - title: Quản lý lịch
         url: /quan-ly-lich
-      - title: Quản lý tài liệu
-        url: /quan-ly-tai-lieu
-      - title: Quản lý cấu hình FTP
-        url: /quan-ly-cau-hinh-ftp
       - title: Quản lý chức năng
         url: /quan-ly-chuc-nang
+  
+  - title: Hướng dẫn xem kết quả đánh giá
+    children:
+      - title:  Đăng nhập
+        url: /user-guide
+      - title: Xem kết quả đánh giá
+        url: /ket-qua-danh-gia
 
-mgmt-worker:
-  - title:      Bắt đầu
+  - title: Hướng dẫn quản lý và đánh giá KPI
     children:
-      - title:  Giới thiệu tổng quan
-        url:    /
-      - title: Đăng nhập, đăng xuất
-        url: /dang-nhap-dang-xuat
-  - title:      Quản lý công nhân
+      - title:  Đăng nhập
+        url: /hr-guide
+      - title: Quản lý thang điểm
+        url: /quan-ly-thang-diem
+      - title: Quản lý KPI
+        url: /quan-ly-kpi
+      - title: Quản lý tổng điểm đánh giá
+        url: /quan-ly-tong-diem-danh-gia
+      - title: Đánh giá KPI
+        url: /danh-gia-kpi
+      - title: Thư viện KPI
+        url: /thu-vien-kpi
+      - title: Thư viện KPI theo vị trí
+        url: /thu-vien-kpi-theo-vi-tri
+      - title: Biểu Đồ Điểm Đánh Giá
+        url: /bieu-do-diem-danh-gia
+
+view-evaluation:
+  - title: Hướng dẫn xem kết quả đánh giá
     children:
-      - title: Trang quản lý công nhân 
-        url: /quan-ly-cong-nhan
-      - title: Thêm từng công nhân
-        url: /them-tung-cong-nhan
-      - title: Thêm nhiều công nhân
-        url: /them-nhieu-cong-nhan
-      - title: Đăng tải hình thẻ công nhân
-        url: /dang-tai-hinh-the-cong-nhan
-      - title: In thẻ công nhân
-        url: /in-the-cong-nhan
-      - title: Cấp thẻ công nhân
-        url: /cap-the-cong-nhan
-      - title: Mở và khóa thẻ công nhân
-        url: /mo-va-khoa-the-cong-nhan
-      - title: Hợp đồng lao động
-        url: /hop-dong-lao-dong
-      - title: Kiểm tra thông tin công nhân
-        url: /kiem-tra-thong-tin-cong-nhan
-  - title:      Quản lý lực lượng thi công
-    children:
-      - title: Quản lý lực lượng thi công
-        url: /quan-ly-luc-luong-thi-cong
-      - title: Thêm lượng thi công
-        url: /them-luc-luong-thi-cong
-      - title: Sửa lực lượng thi công
-        url: /sua-luc-luong-thi-cong
-      - title: Gộp lực lượng thi công
-        url: /gop-luc-luong-thi-cong
-  - title:      Đánh giá năng lực LLTC
-    children:
-      - title: Quản lý tiêu chí đánh giá LLTC
-        url: /quan-ly-tieu-chi-danh-gia-lltc
-      - title: Thêm tiêu chí đánh giá
-        url: /them-tieu-chi-danh-gia
-      - title: Sửa lý tiêu chí đánh giá
-        url: /sua-tieu-chi-danh-gia
-      - title: Xóa lý tiêu chí đánh giá
-        url: /xoa-tieu-chi-danh-gia
-      - title: Đánh giá LLTC từ tổng công ty
-        url: /danh-gia-lltc-tu-tong-cong-ty
-      - title: Đánh giá LLTC từ từng công trường
-        url: /danh-gia-lltc-tu-tung-cong-truong
+      - title:  Đăng nhập
+        url:    /user-guide
+      - title: Xem kết quả đánh giá
+        url: /ket-qua-danh-gia
 sidebar:
-  nav: mgmt-worker
+  nav: view-evaluation
+
+mgmt-hr:
+  - title: Hướng dẫn quản lý và đánh giá KPI
+    children:
+      - title:  Đăng nhập
+        url: /hr-guide
+      - title: Quản lý thang điểm
+        url: /quan-ly-thang-diem
+      - title: Quản lý KPI
+        url: /quan-ly-kpi
+      - title: Quản lý tổng điểm đánh giá
+        url: /quan-ly-tong-diem-danh-gia
+      - title: Đánh giá KPI
+        url: /danh-gia-kpi
+      - title: Thư viện KPI
+        url: /thu-vien-kpi
+      - title: Thư viện KPI theo vị trí
+        url: /thu-vien-kpi-theo-vi-tri
+      - title: Biểu Đồ Điểm Đánh Giá
+        url: /bieu-do-diem-danh-gia
+sidebar:
+  nav: mgmt-hr
