@@ -47,6 +47,13 @@ mgmt-system:
         url: /quan-ly-lich
       - title: Quản lý chức năng
         url: /quan-ly-chuc-nang
+  
+  - title: Hướng dẫn xem kết quả đánh giá
+    children:
+      - title:  Tài liệu hướng dẫn sử dụng
+        url:    /user-guide
+      - title: Xem kết quả đánh giá
+        url: /ket-qua-danh-gia
 
 view-evaluation:
   - title: Hướng dẫn xem kết quả đánh giá
