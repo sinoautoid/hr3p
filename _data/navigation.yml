@@ -15,6 +15,8 @@ header:
 mgmt-system:
   - title:      Quản trị hệ thống
     children:
+      - title: Giới Thiệu Tổng Quan
+        url: /
       - title: Giới Thiệu
         url: /quan-tri
       - title: Quản lý người dùng
