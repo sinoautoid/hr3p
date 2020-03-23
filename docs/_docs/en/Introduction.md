@@ -1,6 +1,6 @@
 ---
 title: Giới thiệu tổng quan
-permalink: /
+permalink: /quan-tri
 
 sidebar:
   nav: mgmt-system
