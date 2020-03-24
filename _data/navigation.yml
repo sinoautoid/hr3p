@@ -49,6 +49,8 @@ mgmt-system:
         url: /quan-ly-chuc-nang
       - title: Quản lý chức năng1
         url: /quan-ly-chuc-nang1
+      - title: Quản lý chức năng B Add
+        url: /quan-ly-chuc-nang
   
   - title: Hướng dẫn xem kết quả đánh giá
     children:
